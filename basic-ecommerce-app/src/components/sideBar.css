@@ -1,0 +1,158 @@
+.sideBar {
+    width: 20%;
+    height: fit-content;
+    position: stick;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    border: 1px solid rgba(19, 19, 19, .3);
+}
+
+.side {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    /* margin: 0 auto; */
+}
+
+.sideBar-header {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(19, 19, 19, .3);
+    border-top: 1px solid rgba(19, 19, 19, .3);
+}
+
+.sideBar-filter {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.filterHeader {
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.filterItems {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.filterItems button{
+    width: 70%;
+    outline: none;
+    border: none;
+    background: none;
+    margin-bottom: .4rem;
+    padding: .5rem .2rem;
+    border-radius: .3rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(19, 19, 19, .7);
+    text-align: left;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.filterItems button:hover,
+.filterItems button:active {
+    background-color: rgba(19, 19, 19, .3);
+}
+
+.sideBar-price {
+    width: 80%;
+    margin-left: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.sideBar-priceBar {
+    width: 80%;
+    margin-top: 2rem;
+    text-align: center;
+    /* border: 2px solid rgba(19, 19, 19, .3); */
+}
+
+.sideBar-priceBtns {
+    width: 80%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sideBar-priceBtn {
+    font-size: 16px;
+    color: rgba(19, 19, 19, .9);
+    font-weight: 700;
+    padding: .5rem .5rem;
+    background: none;
+    border-radius: .7rem;
+    outline: none;
+    border-color: rgba(19, 19, 19, .7);
+}
+
+.sideBar_rangeBar {
+    width: 100%;
+    color: purple;
+}
+
+.sideBar-colors {
+    width: 80%;
+    margin-left: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.sideBar-color {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sideBar-colorBtn {
+    width: 40px;
+    height: 40px;
+    margin: .6rem 0;
+    border: 2px solid #000;
+    outline: none;
+    border-radius: 1rem;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.sideBar-colorBtn_active {
+    opacity: 1;
+}
+
+.sideBar-colorAll {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(19, 19, 19, .7);
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sideBar-size{
+    width: 80%;
+    margin-left: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.sideBar-style {
+    width: 80%;
+    margin-left: 2.5rem;
+}
+
+.sideBar-styleCats {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.sideBar-styleCat {
+    margin-top: 1rem;
+}
