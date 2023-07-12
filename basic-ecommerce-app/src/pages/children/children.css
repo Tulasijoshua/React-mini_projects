@@ -1,0 +1,102 @@
+.children {
+    width: 70%;
+    margin: 3rem auto;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.childrenTitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(19, 19, 19, .7);
+}
+
+.childrenItems {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.childrenItem {
+    width: 300px;
+    transition: all .5s;
+}
+
+.childrenItem:hover {
+    transform: scale(1.05);
+}
+
+.childrenItem-img {
+    width: 300px;
+    height: 300px;
+}
+
+.childrenItem-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    transition: all .5s;
+}
+
+.childrenItem-img img:hover {
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, .15);
+}
+
+.itemDescription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.itemTitle .itemName {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: .3rem;
+}
+
+.itemTitle .itemBrand {
+    font-size: 16px;
+}
+
+.cartBtn button{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: .3rem .5rem;
+    background: none;
+    border-radius: .5rem;
+    border-color: rgba(19, 19, 19, .5);
+    cursor: pointer;
+}
+
+.cartBtn button:hover {
+    background-color: rgba(19, 19, 19, .9);
+    color: #fff;
+}
+
+.itemPrice-box .itemPrice {
+    padding: .3rem .5rem;
+    font-size: 16px;
+    font-weight: 700;
+    background: rgba(19, 19, 19, .1);
+    border-radius: .5rem;
+}
+
+.sideBar-sizeBoxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sideBar-sizeBoxes button {
+    background: none;
+    outline: none;
+    margin: .5rem;
+    padding: .3rem .5rem;
+    font-size: 16px;
+    font-weight: 700;
+    border-color: rgba(19, 19, 19, .5);
+}
